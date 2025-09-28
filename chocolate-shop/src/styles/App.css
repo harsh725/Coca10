@@ -108,10 +108,79 @@ p {
   color: var(--primary-color);
   text-decoration: none;
   transition: var(--transition);
+  position: relative;
+  background: linear-gradient(45deg, #8B4513, #D2691E, #CD853F);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: chocolateFlow 3s ease-in-out infinite;
+}
+
+.logo::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 20%;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #8B4513, #D2691E, #8B4513, transparent);
+  border-radius: 50px;
+  opacity: 0.7;
+  animation: drip 2s ease-in-out infinite;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 30%;
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, #8B4513, #654321);
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: droplet 2s ease-in-out infinite 0.5s;
 }
 
 .logo:hover {
-  color: var(--secondary-color);
+  animation-duration: 1.5s;
+  transform: scale(1.05);
+}
+
+@keyframes chocolateFlow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes drip {
+  0%, 100% {
+    transform: scaleY(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scaleY(1.2);
+    opacity: 0.9;
+  }
+}
+
+@keyframes droplet {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(3px) scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(8px) scale(0.8);
+    opacity: 0;
+  }
 }
 
 .nav-menu {

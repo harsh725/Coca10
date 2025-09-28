@@ -1,17 +1,17 @@
 import { CompanyInfo, Product, Testimonial, HeroSection, AboutSection, NavigationItem } from '../types';
 
 export const companyInfo: CompanyInfo = {
-  name: "Artisan Chocolates",
-  tagline: "Handcrafted Excellence Since 1985",
+  name: "Coca10 Chocolates",
+  tagline: "Handcrafted Excellence from your neighbourhood",
   description: "We create the world's finest handmade chocolates using premium ingredients sourced from the best cocoa farms around the globe. Each piece is crafted with passion, precision, and love.",
-  founded: "1985",
-  location: "San Francisco, California",
-  email: "hello@artisanchocolates.com",
-  phone: "+1 (555) 123-4567",
+  founded: "2025",
+  location: "213, Ravidash basti, Kankhal, Haridwar, Uttrakhand 249408",
+  email: "dhimannandini2003104@gmail.com",
+  phone: "+91 70178-46353",
   socialMedia: {
-    instagram: "https://instagram.com/artisanchocolates",
-    facebook: "https://facebook.com/artisanchocolates",
-    twitter: "https://twitter.com/artisanchocolates"
+    instagram: "https://instagram.com/coca10chocolates",
+    facebook: "https://facebook.com/coca10chocolates",
+    twitter: "https://twitter.com/coca10chocolates"
   }
 };
 
@@ -33,7 +33,7 @@ export const heroSection: HeroSection = {
 
 export const aboutSection: AboutSection = {
   title: "Our Story",
-  description: "Founded in 1985 by master chocolatier Marie Dubois, Artisan Chocolates has been creating exceptional handmade chocolates for nearly four decades. Our commitment to quality, sustainability, and innovation has made us a beloved destination for chocolate connoisseurs worldwide.",
+  description: "Founded in 2025 in the heart of Haridwar, Coca10 Chocolates brings you exceptional handmade chocolates crafted with love from your neighbourhood. Our commitment to quality, sustainability, and innovation makes us a beloved destination for chocolate connoisseurs who appreciate authentic, locally-made treats.",
   image: "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
   highlights: [
     "Premium Belgian and Swiss chocolate",
