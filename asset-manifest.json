@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Coca10/static/css/main.7be2beb0.css",
+    "main.js": "/Coca10/static/js/main.6b1a87a1.js",
+    "index.html": "/Coca10/index.html",
+    "main.7be2beb0.css.map": "/Coca10/static/css/main.7be2beb0.css.map",
+    "main.6b1a87a1.js.map": "/Coca10/static/js/main.6b1a87a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7be2beb0.css",
+    "static/js/main.6b1a87a1.js"
+  ]
+}
