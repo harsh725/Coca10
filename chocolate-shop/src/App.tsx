@@ -11,7 +11,7 @@ import './styles/App.css';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/Coca10">
       <div className="App">
         <Navigation />
         <main>
