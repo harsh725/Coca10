@@ -60,7 +60,7 @@ export const products: Product[] = [
     name: 'Milk Chocolate Bonbons',
     description: 'Creamy milk chocolate bonbons with various fillings',
     price: 32.99,
-    image: 'https://images.unsplash.com/photo-1571197119297-4d76f2d93b4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+    image: 'https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
     category: 'Bonbons',
     ingredients: ['Milk chocolate', 'Caramel', 'Nuts', 'Fruit preserves'],
     isNew: true
